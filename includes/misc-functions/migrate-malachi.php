@@ -36,7 +36,7 @@ function mp_migrate_malachi_news(){
 add_action('admin_init', 'mp_migrate_malachi_news');
 
 /**
- * Function which migrates all news custom post types
+ * Function which migrates all photos custom post types
  *
  */
 function mp_migrate_malachi_photos(){	
@@ -156,7 +156,7 @@ function mp_migrate_malachi_sermons(){
 			$this_post['post_type'] = 'mp_sermon';
 			
 			// Update the post into the database
-			//wp_update_post( $this_post );	
+			wp_update_post( $this_post );	
 			
 			//Get Old MP3 URL
 			$sermon_mp3 = get_post_meta( $post_id, 'sermonmp3', true);
