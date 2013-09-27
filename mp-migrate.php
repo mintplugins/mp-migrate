@@ -3,7 +3,7 @@
 Plugin Name: MP Migrate
 Plugin URI: http://moveplugins.com
 Description: Migration  of settings from Mint Themes to Move Plugins
-Version: 1.0.0.4
+Version: 1.0.0.5
 Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_migrate
